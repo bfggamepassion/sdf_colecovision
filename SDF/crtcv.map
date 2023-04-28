@@ -1,0 +1,453 @@
+ASxxxx Linker V02.00 + NoICE + sdld,  page 1.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+.	.ABS.                            0000   0000 =      0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            0000  .__.ABS.                         
+            0000  l__BSS                           
+            0000  l__CABS                          
+            0000  l__HEADER                        
+            0000  l__HEAP                          
+            0000  l__HOME                          
+            0000  l__OVERLAY                       
+            0000  s__HEADER                        
+            0000  s__HEADER0                       
+            0001  l__GSFINAL                       
+            0021  l__HEADER0                       
+            0044  l__GSINIT                        
+            01FA  l__DATA                          
+            519B  l__CODE                          
+            7000  s__DATA                          
+            71FA  s__BSS                           
+            71FA  s__CABS                          
+            71FA  s__HEAP                          
+            71FA  s__OVERLAY                       
+            8048  s__CODE                          
+            D1E3  s__GSINIT                        
+            D1E3  s__HOME                          
+            D227  s__GSFINAL                       
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 2.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   519B =  20891. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            80B0  keypad_table                     
+            811F  _music_bonus                     
+            8D7D  _isCollision                     
+            8D7D  _isCollision_start               
+            8E16  _initSprites                     
+            8E16  _initSprites_start               
+            8E16  _isCollision_end                 
+            8E2D  _getFreeSprite                   
+            8E2D  _getFreeSprite_start             
+            8E2D  _initSprites_end                 
+            8E95  _getFreeConsecutiveSprite        
+            8E95  _getFreeConsecutiveSprite_start  
+            8E95  _getFreeSprite_end               
+            8EDD  _getFreeConsecutiveSprite_end    
+            8EDD  _showSprites                     
+            8EDD  _showSprites_start               
+            8F61  _LoadPatternAndshowAScreen       
+            8F61  _LoadPatternAndshowAScreen_start 
+            8F61  _showSprites_end                 
+            8FA7  _LoadPatternAndshowAScreen_end   
+            8FA7  _get_char_protected              
+            8FA7  _get_char_protected_start        
+            8FD3  _copyTileXY                      
+            8FD3  _copyTileXY_start                
+            8FD3  _get_char_protected_end          
+            9058  _copyTileXY_end                  
+            9058  _peekVram                        
+            9058  _peekVram_start                  
+            9089  _peekVram_end                    
+            9089  _pokeVram                        
+            9089  _pokeVram_start                  
+            90B6  _pokeVram_end                    
+            90B6  _setSprite                       
+            90B6  _setSprite_start                 
+            90E8  _moveSprite                      
+            90E8  _moveSprite_start                
+            90E8  _setSprite_end                   
+            910B  _initObstacle                    
+            910B  _initObstacle_start              
+            910B  _moveSprite_end                  
+            9120  _initObstacle_end                
+            9120  _setObstacle                     
+            9120  _setObstacle_start               
+            9171  _isCarObstacle                   
+            9171  _isCarObstacle_start             
+            9171  _setObstacle_end                 
+            91BE  _isCarObstacle_end               
+            91BE  _music_gameOver                  
+            9490  _music_ingame1                   
+            9B31  _stopmusic                       
+ASxxxx Linker V02.00 + NoICE + sdld,  page 3.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   519B =  20891. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            9B31  _stopmusic_start                 
+            9B76  _stopmusic_end                   
+            9B86  _mutemusic                       
+            9B86  _mutemusic_start                 
+            9BA7  _mutemusic_end                   
+            9BA7  _sound_nmi                       
+            9BA7  _sound_nmi_start                 
+            9C77  _sound_nmi_end                   
+            9C77  _startmusic                      
+            9C77  _startmusic_start                
+            9CBB  _setYellowColor                  
+            9CBB  _setYellowColor_start            
+            9CBB  _startmusic_end                  
+            9CFF  _setRedNumber                    
+            9CFF  _setRedNumber_start              
+            9CFF  _setYellowColor_end              
+            9D43  _getFreeBullet                   
+            9D43  _getFreeBullet_start             
+            9D43  _setRedNumber_end                
+            9D63  _getFreeAlien                    
+            9D63  _getFreeAlien_start              
+            9D63  _getFreeBullet_end               
+            9D84  _getFreeAlien_end                
+            9D84  _getFreeCapsule                  
+            9D84  _getFreeCapsule_start            
+            9DA4  _getFreeAnim                     
+            9DA4  _getFreeAnim_start               
+            9DA4  _getFreeCapsule_end              
+            9DC5  _getFreeAnim_end                 
+            9DC5  _shiftLeftBoucle                 
+            9DC5  _shiftLeftBoucle_start           
+            9E51  _movePlayerShoot                 
+            9E51  _movePlayerShoot_start           
+            9E51  _shiftLeftBoucle_end             
+            9F34  _createAnim                      
+            9F34  _createAnim_start                
+            9F34  _movePlayerShoot_end             
+            A04F  _createAnim_end                  
+            A04F  _moveAnim                        
+            A04F  _moveAnim_start                  
+            A2BB  _createAlien                     
+            A2BB  _createAlien_start               
+            A2BB  _moveAnim_end                    
+            A4D5  _createAlien_end                 
+            A4D5  _createCapsuleH                  
+            A4D5  _createCapsuleH_start            
+            A555  _createCapsuleH_end              
+            A555  _createCapsuleV                  
+            A555  _createCapsuleV_start            
+            A5D5  _createCapsule                   
+            A5D5  _createCapsuleV_end              
+ASxxxx Linker V02.00 + NoICE + sdld,  page 4.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   519B =  20891. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            A5D5  _createCapsule_start             
+            A693  _createAlienV                    
+            A693  _createAlienV_start              
+            A693  _createCapsule_end               
+            A80D  _createAlienH                    
+            A80D  _createAlienH_start              
+            A80D  _createAlienV_end                
+            A987  _controlPlayer                   
+            A987  _controlPlayer_start             
+            A987  _createAlienH_end                
+            AADE  _controlPlayer_end               
+            AADE  _moveAlien                       
+            AADE  _moveAlien_start                 
+            AFAF  _moveAlien_end                   
+            AFAF  _moveCapsule                     
+            AFAF  _moveCapsule_start               
+            B2BD  _moveCapsuleFast                 
+            B2BD  _moveCapsuleFast_start           
+            B2BD  _moveCapsule_end                 
+            B5CD  _checkCollisionShootAlien        
+            B5CD  _checkCollisionShootAlien_start  
+            B5CD  _moveCapsuleFast_end             
+            B87B  _checkCollisionShootAlien_end    
+            B87B  _checkCollisionShootCapsule      
+            B87B  _checkCollisionShootCapsule_start
+            BAF1  _bonusLevel                      
+            BAF1  _bonusLevel_start                
+            BAF1  _checkCollisionShootCapsule_end  
+            BCBB  _bonusLevel_end                  
+            BCBB  _initLevel                       
+            BCBB  _initLevel_start                 
+            BE50  _initLevel_end                   
+            BE50  _menu                            
+            BE50  _menu_start                      
+            BEC8  _menu_end                        
+            BEF9  _endRound                        
+            BEF9  _endRound_start                  
+            C031  _endRound_end                    
+            C031  _main                            
+            C031  _main_start                      
+            C378  _main_end                        
+            C3D8  _nmi                             
+            C3D8  _nmi_start                       
+            C494  _direct_sound                    
+            C494  _nmi_end                         
+            C4A7  _music_nextLevel                 
+            C691  _music_nextLevel2                
+            C7F6  _LEVEL_NAMERLE                   
+            C869  _LEVEL_PATTERNRLE                
+            CA63  _LEVEL_COLORRLE                  
+            CAA4  _SPATTERNRLE                     
+ASxxxx Linker V02.00 + NoICE + sdld,  page 5.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              8048   519B =  20891. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            CE1D  _rle2vram                        
+            CE51  _put_vram                        
+            CE66  _disable_nmi                     
+            CE71  _enable_nmi                      
+            CE7C  _center_string                   
+            CEA1  _set_snd_table                   
+            CEA5  set_snd_table                    
+            CEB6  _screen_mode_2_text              
+            CEDA  _screen_on                       
+            CEE5  _get_char                        
+            CEFB  _load_patternrle                 
+            CF0A  _cls                             
+            CF16  default_set_mode_2               
+            CF1C  default_vdp_reg                  
+            CF3A  _next_music                      
+            CF45  _play_music                      
+            CF4F  _update_music                    
+            D00F  _stop_music                      
+            D038  _strlen0                         
+            D046  _put_vram_pattern                
+            D076  _delay                           
+            D0A0  _get_vram                        
+            D0B5  _put_char                        
+            D0C8  _rnd_byte                        
+            D0D6  _duplicate_pattern               
+            D118  _str                             
+            D12E  calc_offset                      
+            D139  _screen_off                      
+            D144  _pause                           
+            D17E  _utoa0                           
+            D1A0  absdiff_max_min                  
+            D1AC  rnd1                             
+            D1DB  _get_random                      
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 6.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HOME                              D1E3   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 7.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_GSINIT                            D1E3   0044 =     68. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            D1E3  gsinit                           
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 8.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_GSFINAL                           D227   0001 =      1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 9.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_DATA                              7000   01FA =    506. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+            7000  _buffer32                        
+            7020  snd_addr                         
+            702B  snd_areas                        
+            7068  _no_nmi                          
+            7069  _vdp_status                      
+            706A  _nmi_flag                        
+            706B  _joypad_1                        
+            706C  _keypad_1                        
+            706D  _joypad_2                        
+            706E  _keypad_2                        
+            706F  _odd                             
+            7070  _oddNmi                          
+            7071  _cd                              
+            70D1  _p_source                        
+            70D2  _nb_source                       
+            70D3  _loopMusic                       
+            70D4  _vola                            
+            70D5  _pPlayList                       
+            70D7  _pPlayListForLoop                
+            70D9  _nPlayDelay                      
+            70DA  _pSfxList                        
+            70DC  _bullet                          
+            70EA  _alien                           
+            712A  _capsule                         
+            7136  _anim                            
+            714E  _zoneCaractere                   
+            7156  _car2scroll                      
+            7157  _canShoot                        
+            7158  _ticks                           
+            7159  _nmi_score                       
+            715A  _timer_ticks                     
+            715C  _counter                         
+            715D  _alienH_rate                     
+            715E  _alienH_rate_counter             
+            715F  _alienV_rate                     
+            7160  _alienV_rate_counter             
+            7161  _alienR_rate                     
+            7162  _capsule_rate                    
+            7163  _capsule_rate_counter            
+            7164  _score                           
+            7166  _hiscore                         
+            7168  _touche                          
+            7169  _nblives                         
+            716A  _workflow                        
+            716B  _activateNmi                     
+            716C  _currentLevel                    
+            716D  _timerAnimation                  
+            716E  _alienBasePattern                
+            7173  sprite_count                     
+            7174  _sprites                         
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 10.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_BSS                               71FA   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 11.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HEAP                              71FA   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 12.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HEADER                            0000   0000 =      0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 13.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_HEADER0                           0000   0021 =     33. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 14.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_OVERLAY                           71FA   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 15.
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CABS                              71FA   0000 =      0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  ---------------------------------   ------------------------
+ASxxxx Linker V02.00 + NoICE + sdld,  page 16.
+
+Files Linked                              [ module(s) ]
+
+../crtcv.rel                              [ crt0 ]
+bonus.rel                                 [ bonus ]
+fonctions.rel                             [ fonctions ]
+gameOver.rel                              [ gameOver ]
+ingame1.rel                               [ ingame1 ]
+main.rel                                  [ main ]
+musique.rel                               [ musique ]
+nextLevel.rel                             [ nextLevel ]
+nextLevel2.rel                            [ nextLevel2 ]
+sprites_charset_sources.rel               [ sprites_charset_sources ]
+
+
+Libraries Linked                          [ object file ]
+
+../cvlib.lib                              [ rle2vram ]
+../cvlib.lib                              [ vdp2 ]
+../cvlib.lib                              [ nmi ]
+../getput.lib                             [ gp9centr ]
+../cvlib.lib                              [ sndtbl ]
+../getput.lib                             [ gpscrmo1 ]
+../cvlib.lib                              [ scrn_on ]
+../getput.lib                             [ gpascii1 ]
+../getput.lib                             [ gppatrle ]
+../getput.lib                             [ gpcls ]
+../getput.lib                             [ gpscrmo2 ]
+../cvlib.lib                              [ music ]
+../getput.lib                             [ gpstrlen ]
+../cvlib.lib                              [ sprites2 ]
+../cvlib.lib                              [ vdppat ]
+../cvlib.lib                              [ delay ]
+../cvlib.lib                              [ vdp3 ]
+../getput.lib                             [ gpascii0 ]
+../getput.lib                             [ gprnd1 ]
+../cvlib.lib                              [ vdppat1 ]
+../getput.lib                             [ gpstr ]
+../getput.lib                             [ gpcaloff ]
+../cvlib.lib                              [ scrn_off ]
+../getput.lib                             [ gppause ]
+../getput.lib                             [ gputoa0 ]
+../getput.lib                             [ gprnd5 ]
+../getput.lib                             [ gprnd2 ]
+../cvlib.lib                              [ get_rand ]
+
+ASxxxx Linker V02.00 + NoICE + sdld,  page 17.
+
+User Base Address Definitions
+
+_CODE = 0x8048
+_DATA = 0x7000
+
+

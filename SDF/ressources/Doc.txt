@@ -1,0 +1,33 @@
+STARTSHIP DEFENCE FORCE
+
+L'humanité à quitté la terre avant que son soleil ne s'éteigne. D'immenses
+vaisseaux colons ont décollés dans le but de trouver une planète accueillante
+pour le reste de la population humaine. Après des dixaines d'années de voyages,
+les vaisseaux sont entrés dans une zone inconnus, peuplés d'aliens belliqueux
+qui n'ont qu'un but, la destruction de la colonie.
+
+Vous êtes un soldat, un défenseur de bouclier qui est le dernier rempart des
+vaisseaux mère. Si le bouclier cède, c'est la destruction. Arriverez vous à 
+survivre ?
+
+
+Dans Starship defence force, vous controlez 2 modules de défense simultanément,
+un module qui se déplace exclusivement horizontalement, et un autre
+verticalement. 
+
+Chaque module tire en simultané. Vous avez le choix entre 2 types de missile,
+en effet chaque alien ne peut-être détruit que par un type de missile spécifique.
+
+Pour vous aider des capsules de réparations sont envoyés aléatoirement, si
+celle ci touchent une brèche elle est réparée. Attention donc à éviter de
+détruire ces capsules.
+
+Parfois, lors d'un acalmie pendant le voyage, vous aurez la possibilité de
+tenter de réparer vous même le bouclier.
+
+Bonne chance !
+
+1 alien qui touche le bouclier = - 5 points
+1 alien détruit = + 5 points
+1 capsule qui touche le bouclier = + 10 points
+1 capsule détruite = - 20 points
